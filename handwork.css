@@ -1,0 +1,80 @@
+html, body{
+    height: 95%;
+}
+.wraped{
+    min-height: 100%;
+}
+.main{
+    padding-bottom: 50px;
+}
+tr,th,td{
+    border: 2px solid grey;
+}
+table{
+    width: 100%;
+}
+          .ng{
+              border: 0 solid;
+              border-radius: 50%;
+              padding: 0px 5px 5px 5px;
+             color: white;
+             background: darkgreen;
+          }
+          .empty:empty{
+              display: none;
+          }
+          
+          .wrapper{
+              margin: auto;
+              width: 400px;
+              position: relative;
+              height: 500px;
+             
+          }
+          .table{
+            display: table;
+            width: 100%;
+             height: 100%;
+          }
+           .table-cell {
+          display: table-cell;
+          width: 100%;
+          height: 100%;
+          vertical-align: middle;
+      }
+.footer{
+    position: relative;
+    margin-top: -50px;
+    height: 50px;
+    clear: both;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #F8F9FA;
+}
+.p{
+    color: darkgray;
+}
+ .wrap{   
+     margin: auto;
+     width: 400px;
+  }
+.sucessmsg{
+    margin-bottom: 100px;
+}
+.card{
+    margin-top: 50px;
+    width: 25rem;
+}
+@media(max-width:430px){
+    .wrap{
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+        height: 400px;
+    }
+    .card{
+        width: 100%;
+    }
+    
+}
